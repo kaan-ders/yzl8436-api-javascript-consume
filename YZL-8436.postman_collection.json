@@ -1,0 +1,110 @@
+{
+	"info": {
+		"_postman_id": "9d329440-7bb4-4351-b2f7-ca2404e3e98c",
+		"name": "YZL-8436",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Popüler Filmler",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true,
+				"strictSSL": false
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "https://api.themoviedb.org/3/movie/popular?api_key=837fd3c1b9dffbbe7b69a4a979ab2fe3",
+					"protocol": "https",
+					"host": [
+						"api",
+						"themoviedb",
+						"org"
+					],
+					"path": [
+						"3",
+						"movie",
+						"popular"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "837fd3c1b9dffbbe7b69a4a979ab2fe3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Film Detay",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true,
+				"strictSSL": false
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "https://api.themoviedb.org/3/movie/550?api_key=837fd3c1b9dffbbe7b69a4a979ab2fe3",
+					"protocol": "https",
+					"host": [
+						"api",
+						"themoviedb",
+						"org"
+					],
+					"path": [
+						"3",
+						"movie",
+						"550"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "837fd3c1b9dffbbe7b69a4a979ab2fe3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Film Oyuncular",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.themoviedb.org/3/movie/550/credits?api_key=837fd3c1b9dffbbe7b69a4a979ab2fe3",
+					"protocol": "https",
+					"host": [
+						"api",
+						"themoviedb",
+						"org"
+					],
+					"path": [
+						"3",
+						"movie",
+						"550",
+						"credits"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "837fd3c1b9dffbbe7b69a4a979ab2fe3"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
